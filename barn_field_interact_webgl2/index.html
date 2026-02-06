@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Barn Field Interactive Scene (WebGL2)</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    #instructions {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 15px 20px;
+      border-radius: 8px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 300px;
+      z-index: 100;
+    }
+    #instructions h3 {
+      margin: 0 0 10px 0;
+      font-size: 16px;
+    }
+    #instructions p {
+      margin: 8px 0;
+    }
+    #instructions kbd {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+    #canvas {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="instructions">
+    <h3>Interactive Demo</h3>
+    <p>Control the blue player as it moves through the green field, interacting with the tree and barn.</p>
+    <p><strong>Controls:</strong></p>
+    <p><kbd>W</kbd> - Move forward</p>
+    <p><kbd>S</kbd> - Move backward</p>
+    <p><kbd>A</kbd> - Turn left</p>
+    <p><kbd>D</kbd> - Turn right</p>
+    <p><strong>Note:</strong> The player cannot run into the barn or tree. You must navigate around them.</p>
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="m4.js"></script>
+  <script src="shaders.js"></script>
+  <script src="geometry.js"></script>
+  <script src="webgl-utils.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
