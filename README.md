@@ -20,7 +20,7 @@ An interactive 3D scene featuring a green grassy field, a barn, and a tree. The 
 
 ### Project 2: Barn Field Interactive Scene (WebGL2)
 
-A preliminary reimplementation of the same interactive 3D scene using WebGL2, providing a lower-level approach to 3D graphics rendering. This project demonstrates direct WebGL2 programming, including shader management, geometry handling, and matrix transformations, while maintaining the same visual elements and interactive controls as Project 1. [incomplete]
+An implementation of a similar interactive 3D scene using WebGL2, providing a lower-level approach to 3D graphics rendering. This project demonstrates direct WebGL2 programming, including shader management, geometry handling, and matrix transformations, while maintaining the same visual elements and interactive controls as Project 1. 
 
 **link:** [Barn Field Interactive Scene (WebGL2)](https://jiesli.github.io/computer-graphics-course-demos/proj2_barn_field_interact_webgl2/)
 
